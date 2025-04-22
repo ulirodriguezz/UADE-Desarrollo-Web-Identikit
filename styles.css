@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+    color: #D6C9F1;
+    font-family: "Lato", sans-serif;
+}
+p,span{
+    color: #C9BEE2;
+    font-family: "Lato", sans-serif;
+}
+a{
+    font-family: "Lato", sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(to right, rgba(41, 31, 56),rgb(50, 34, 80),rgb(63, 43, 101));
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+header{
+    background-color: #3A2E52;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+header h1{
+    font-family: "DynaPuff", system-ui;
+    font-weight: 300;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: #2F2543;
+}
+footer h4{
+   font-family:  "DynaPuff", system-ui;
+   font-weight: 100;
+}
+nav a:hover{
+    border-bottom: 2px solid #D6C9F1;
+}
+aside{
+    vertical-align: top;
+    display: inline-block;
+    width: 30%;
+    height: 600px;
+    background-color: #4A3C66;
+    box-sizing: border-box;
+    padding: 25px;
+
+}
+.sidebar-list{
+    list-style-type: disc;
+}
+.sidebar-list li{
+    display: list-item;
+}
+.sidebar-list li a{
+   text-decoration: none;
+}
+
+table{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+tr{
+    display: flex;
+    height: 60px;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 10px 0 10px 0;
+}
+td{
+    align-content: center;
+    width: 600px;
+}
+ul li{
+ display: inline;
+}
+a{
+    text-decoration: none;
+    padding: 5px 5px 2px 5px;
+    color: #B8AEE0;
+    transition: 0.2s ease;
+}
+a:hover{
+    color: #D6C9F1;
+}
+.my-photo{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #5B4D76;
+    margin-bottom: 40px;
+}
+.my-name{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.my-description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.linksDiv img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+.linksDiv{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.linksDiv img:hover{
+    transform: scale(1.1);
+}
+.profile-title{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.rowTitle{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.rowTitle img{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+}
+.player-card{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    gap: 10px;
+    border: 1px solid #5B4D76;
+    padding: 5px;
+    background-color: #3A2E52;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.player-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+    background-color: #4A3C66;
+}
+.player-card img{
+    height: 80%;
+    border-radius: 10px;
+}
+.trivia-title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.trivia-content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.text-highlight{
+    color:  #EBCB8B;
+}
+.winner-description{
+    width: 60%;
+    margin-top: 20px;
+}
+.videos-content{
+
+    width: 100%;
+
+}
+.video-section{
+    display: inline-block;
+    width: 70%;
+    height: 600px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+.video-section iframe{
+    align-self: center;
+    border-radius: 10px;
+}
+.video-section h2{
+    margin-bottom: 10px;
+}
+.video-section p{
+    margin-bottom: 20px;
+}
+.contact-icons-div{
+    display: flex;
+    gap: 5px;
+}
+.contact-icons-div img{
+    height: 25px;
+    object-fit: contain;
+    transition: 0.2s;
+}
+.contact-icons-div img:hover{
+    transform: scale(1.1);
+}
+#profile-content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#profile-content p{
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#profile-content h3{
+    margin-bottom: 20px;
+}
